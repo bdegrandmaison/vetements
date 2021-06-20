@@ -5,10 +5,9 @@
   "author": "BdeGr",
   "license": "MIT",
   "scripts": {
-    "seed-data": "keystone-next --seed-data",
-    "deploy": "keystone-next build && keystone-next prisma migrate deploy",
     "dev": "keystone-next dev",
-    "postinstall": "keystone-next postinstall",
+    "deploy": "keystone-next build",
+    "seed-data": "keystone-next --seed-data",
     "start": "keystone-next start"
   },
   "eslintConfig": {
