@@ -65,6 +65,12 @@ export default withAuth(
       ProductImage,
       Role,
     }),
+    graphql: {
+      queryLimits: { maxTotalResults: 100 },
+      apolloConfig: {
+        introspection: true,
+      },
+    },
     extendGraphqlSchema,
     ui: {
       // TODO: change this for roles
