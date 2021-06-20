@@ -5,8 +5,11 @@
   "author": "BdeGr",
   "license": "MIT",
   "scripts": {
-    "dev": "keystone-next",
-    "seed-data": "keystone-next --seed-data"
+    "seed-data": "keystone-next --seed-data",
+    "deploy": "keystone-next build && keystone-next prisma migrate deploy",
+    "dev": "keystone-next dev",
+    "postinstall": "keystone-next postinstall",
+    "start": "keystone-next start"
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
