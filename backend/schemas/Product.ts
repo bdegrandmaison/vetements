@@ -6,7 +6,7 @@ import { User } from "./User";
 export const Product = list({
   access: {
     create: isSignedIn,
-    read: rules.canReadProducts,
+    read: () => true,
     update: rules.canManageProducts,
     delete: rules.canManageProducts,
   },

@@ -1,0 +1,29 @@
+{
+  "name": "vetements",
+  "version": "1.0.0",
+  "description": "\"# vetements\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "yarn --cwd frontend install && yarn --cwd backend install",
+    "start": "concurrently \"yarn --cwd backend dev\" \"yarn --cwd frontend dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdegrandmaison/vetements.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdegrandmaison/vetements/issues"
+  },
+  "homepage": "https://github.com/bdegrandmaison/vetements#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  },
+  {
+    "engines": {
+      "yarn": "^1.22.10"
+    }
+  }
+}
