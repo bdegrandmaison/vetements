@@ -4,7 +4,7 @@
   "description": "\"# vetements\"",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "yarn --cwd frontend install && yarn --cwd backend install",
+    "postinstall": "(yarn --cwd frontend install -P && yarn --cwd backend install -P)",
     "start": "concurrently \"yarn --cwd backend dev\" \"yarn --cwd frontend dev\""
   },
   "repository": {
