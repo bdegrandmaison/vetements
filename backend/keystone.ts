@@ -44,7 +44,7 @@ export default withAuth(
     server: {
       port: 3000,
       cors: {
-        origin: [process.env.FRONTEND_URL],
+        origin: [process.env.FRONTEND_URL, process.env.FRONTEND_URL2],
         credentials: true,
       },
     },
