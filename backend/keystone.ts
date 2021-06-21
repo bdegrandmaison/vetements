@@ -42,6 +42,7 @@ export default withAuth(
   config({
     // @ts-ignore
     server: {
+      port: 3000,
       cors: {
         origin: [process.env.FRONTEND_URL],
         credentials: true,
