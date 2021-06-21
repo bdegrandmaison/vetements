@@ -19,10 +19,7 @@
   },
   "homepage": "https://github.com/bdegrandmaison/vetements#readme",
   "dependencies": {
-    "concurrently": "^6.2.0"
-  },
-  "engines": {
-    "node": ">=14.0.0",
+    "concurrently": "^6.2.0",
     "yarn": "^1.22.10"
   }
 }
