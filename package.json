@@ -21,9 +21,8 @@
   "dependencies": {
     "concurrently": "^6.2.0"
   },
-  {
-    "engines": {
-      "yarn": "^1.22.10"
-    }
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": "^1.22.10"
   }
 }
