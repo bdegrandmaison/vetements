@@ -37,6 +37,7 @@ export default function Products({ page }) {
   });
   if (loading) return <p>Chargement en cours</p>;
   if (error) return <p>Erreur: {error.message}</p>;
+  console.log(error);
   return (
     <>
       <ProductsListStyles>
